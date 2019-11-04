@@ -6,9 +6,7 @@ Create a PHP API Client for ``https://docs.thecatapi.com/``
 
 #### Example of API usage:
 ```php
-$api = new TheCatAPI($apiKey);
-
-// ... configure logging / caching / etc...
+// Create $api instance, configure logging / caching / etc...
 
 /** @var Category[] $categories */
 $categories = $api->categories()->all();
