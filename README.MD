@@ -2,7 +2,7 @@
 
 Create a PHP API Client for ``https://docs.thecatapi.com/``
 
-*implement at least ``search``, ``breed``, ``category``
+*implement at least ``search``, ``breed``, ``category`` methods
 
 #### Example of API usage:
 ```php
