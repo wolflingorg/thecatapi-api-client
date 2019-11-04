@@ -8,6 +8,8 @@ Create a PHP API Client for ``https://docs.thecatapi.com/``
 ```php
 $api = new TheCatAPI($apiKey);
 
+// ... configure logging / caching / etc...
+
 /** @var Category[] $categories */
 $categories = $api->categories()->all();
 
